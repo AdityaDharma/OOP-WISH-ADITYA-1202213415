@@ -1,6 +1,6 @@
 package MODUL2_ADITYA;
 public class MainApp {
-    public static void main(String[]args){
+    public static void main(String[]args)throws Exception{
         TransportasiAir trp = new TransportasiAir(4, 20000);
         trp.informasi();
         trp.berlayar();
